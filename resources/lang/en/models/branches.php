@@ -8,7 +8,7 @@ return array (
     'id' => 'Id',
     'name' => 'Name',
     'slug' => 'Slug',
-    'adress' => 'Adress',
+    'address' => 'Address',
     'phone' => 'Phone',
     'created_at' => 'Created At',
     'updated_at' => 'Updated At',
