@@ -1,6 +1,7 @@
 <?php
 
 namespace $NAMESPACE_API_CONTROLLER$;
+use Spatie\QueryBuilder\QueryBuilder;
 
 use $NAMESPACE_API_REQUEST$\Create$MODEL_NAME$APIRequest;
 use $NAMESPACE_API_REQUEST$\Update$MODEL_NAME$APIRequest;
