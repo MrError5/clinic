@@ -119,18 +119,9 @@ class UserAPIController extends AppBaseController
         }
 
         $user = $this->userRepository->update($input, $id);
-        // $user->detachRole($user->roles);
-        // $user->attachRole($request->role);
-        // $user->syncRoles($request->role);
-        // $user->detachRole('superadministrator');
-        // $admin->permissions()->detach([$createPost->id]);
-        // $user->roles()->syncWithoutDetaching($user->id);
-        // $user->attachRole($request->role);
-        // $user->attachRole($request->role);
 
-        // $user->roles()->sync([$request->role]);
-$user->detachRoles($user->roles);
-        $user->attachRole($request->role);
+        // $user->detachRoles($user->roles);
+        // $user->attachRole($request->role);
 
 // $user->attachRoles($request->role);
         return $this->sendResponse(

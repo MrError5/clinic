@@ -18,6 +18,11 @@ class UsersTableSeeder extends Seeder
         	'name' => 'Hamada',
         	'email' => 'test1@test.com',
         	'password' => bcrypt('123456'),
+        	'phone' => '0102020',
+        	'address' => 'haram',
+        	'gender' => 'm',
+        	'age' => '22',
+        	'image' => 'nnn',
 
 
 
